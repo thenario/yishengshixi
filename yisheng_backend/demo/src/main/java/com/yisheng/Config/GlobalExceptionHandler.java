@@ -1,4 +1,4 @@
-package com.yisheng.config;
+package com.yisheng.Config;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

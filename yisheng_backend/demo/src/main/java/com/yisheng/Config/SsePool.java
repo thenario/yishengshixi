@@ -1,4 +1,4 @@
-package com.yisheng.config;
+package com.yisheng.Config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
