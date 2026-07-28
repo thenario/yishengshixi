@@ -18,7 +18,7 @@ public class Result<T>  {
         return new Result<>(message,code,data);
     }
 
-    public static <T> Result<T> error(String message,Integer code,T data){
-        return new Result<>(message,code,data);
+    public static <T> Result<T> error(Integer code,T data){
+        return new Result<>("server error",code,data);
     }
 }
