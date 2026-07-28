@@ -33,7 +33,6 @@ public class SweepAndRunImp implements SweepAndRunService {
             emitter.send(event);
         } catch (IOException e) {
             ssePool.removeSseLink(emitterId);
-            emitter.completeWithError(e);
         }
         return emitter;
     };
